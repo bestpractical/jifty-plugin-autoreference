@@ -4,6 +4,8 @@ use warnings;
 package Jifty::Plugin::AutoReference;
 use base qw/ Jifty::Plugin /;
 
+our $VERSION = '0.01';
+
 use Jifty::Plugin::AutoReference::Widget;
 
 =head1 NAME
